@@ -1,4 +1,4 @@
-const catchAsyncError = require("../utilities/catchAsyncError");
+const catchAsyncError = require("../utilities/catchAsyncError.js");
 const ReqError = require("../utilities/ReqError.js");
 const { cloudinary } = require("../utilities/Cloudinary.js");
 
