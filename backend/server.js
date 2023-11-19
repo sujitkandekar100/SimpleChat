@@ -14,7 +14,7 @@ mongoose
   .catch((error) => console.log("An error occured..."));
 
 // Serve client folder
-app.use(express.static(path.join(__dirname,"..", "SimpleChat",client", "build")));
+app.use(express.static(path.join(__dirname,"..", "SimpleChat","client", "build")));
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "..","SimpleChat","client", "build", "index.html"));
