@@ -17,7 +17,7 @@ mongoose
 app.use(express.static(path.join(__dirname,"..","SimpleChat","client", "build")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "..","SimpleChat","client", "build", "index.html"));
+  res.sendFile(path.join(__dirname, "..","SimpleChat","client", "index.html"));
 });
 
 //   Listen to port
